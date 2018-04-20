@@ -11,7 +11,7 @@ void draw()
 {
   background(0);
   for(int i = pipes.size() -1; i >= 0; i--)
-  {
+  {  
     pipes.get(i).show();
     pipes.get(i).update();
     if(pipes.get(i).hits(bird))
